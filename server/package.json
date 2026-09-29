@@ -1,0 +1,21 @@
+{
+  "name": "compintel-server",
+  "version": "1.0.0",
+  "description": "CompIntel AI Backend API & LLM Agent Engine",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec node --experimental-strip-types src/server.js",
+    "start": "node --experimental-strip-types src/server.js"
+  },
+  "dependencies": {
+    "@vectorize-io/hindsight-client": "^0.10.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
